@@ -709,7 +709,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 		return ..()
 	if(SPT_PROB(100 * creation_purity, seconds_per_tick))
 		affected_mob.become_blind(IMPURE_OCULINE)
-		to_chat(affected_mob, span_danger("You suddenly develop a pounding headache as your vision fluxuates."))
+		to_chat(affected_mob, span_danger("You suddenly develop a pounding headache as your vision fluctuates."))
 		headache = TRUE
 
 /datum/reagent/inverse/oculine/on_mob_end_metabolize(mob/living/affected_mob)
